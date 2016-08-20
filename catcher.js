@@ -2,7 +2,7 @@ $(function() {
     $("#body").sceditor({
         plugins: "bbcode",
 		locale: "tr",
-		style: "default.css",
+		style: "https://rawgit.com/impulsiva/dhwysi/master/default.css",
 		width: "300px",
 		toolbar: "bold,italic,underline|color,emoticon,youtube|left,center,right|code,quote|source",
 		emoticonsRoot: 'https://img.donanimhaber.com/upfiles/smiley/',
