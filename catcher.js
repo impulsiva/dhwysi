@@ -1,10 +1,8 @@
 $(function() {
-    // Replace all textarea's
-    // with SCEditor
-    $("#poster").sceditor({
+    $("#body").sceditor({
         plugins: "bbcode",
 		locale: "tr",
-		style: "minified/jquery.sceditor.default.min.css",
+		style: "default.css",
 		width: "300px",
 		toolbar: "bold,italic,underline|color,emoticon,youtube|left,center,right|code,quote|source",
 		emoticonsRoot: 'https://img.donanimhaber.com/upfiles/smiley/',
